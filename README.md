@@ -11,8 +11,10 @@ Grazient is a gradient generator app to make customized and beautiful gradient b
 
 # Demo
 
+Live Demo - [Grazient](https://grazient.vercel.app/)
+
  
 
-# Getting Started with Create React App
+# Bootstraped With
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
