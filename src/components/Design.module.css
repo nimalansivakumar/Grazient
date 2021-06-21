@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.design_container {
+  max-width: 1300px;
+  width: 100%;
+  height: 50vh;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.image_container {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.image_container:hover {
+  background-color: rgb(255, 255, 255);
+  transition: all 0.4s ease;
+}
+
+.header {
+  color: #2e2e2e;
+  font-size: 2rem;
+}
+
+.copiedMessage {
+  color: #fff;
+  margin: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .design_container {
+    max-width: 300px;
+  }
+}

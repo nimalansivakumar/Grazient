@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: "Work Sans", sans-serif;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #2e2e2e;
+}
+
+footer img {
+  max-width: 30px;
+  margin: 5px 10px;
+  cursor: pointer;
+}
