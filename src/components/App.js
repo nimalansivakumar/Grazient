@@ -32,10 +32,18 @@ class App extends React.Component {
         <Control state={this.state} handler={this.handleStateChange} />
         <footer>
           <div>
-            <a href="https://twitter.com/Nimalan_" target="_blank">
+            <a
+              href="https://twitter.com/Nimalan_"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img alt="Twitter" src={TwitterLogo}></img>
             </a>
-            <a href="https://github.com/nimalansivakumar" target="_blank">
+            <a
+              href="https://github.com/nimalansivakumar"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img alt="Github" src={GitHubLogo}></img>
             </a>
           </div>

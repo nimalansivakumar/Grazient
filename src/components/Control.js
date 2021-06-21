@@ -109,7 +109,7 @@ function Control(props) {
                 type="text"
                 id="hexinput1"
                 className={styles.hexinput}
-                value={color1}
+                value={color1} readOnly
               ></input>
             </div>
             <div className={styles.current_color}>
@@ -125,7 +125,7 @@ function Control(props) {
                 id="hexinput2"
                 className={styles.hexinput}
                 value={color2}
-                placeholder={color2}
+                readOnly
               ></input>
             </div>
             <button

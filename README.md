@@ -5,9 +5,9 @@ Grazient is a gradient generator app to make customized and beautiful gradient b
 
 # Features
 
-- Popular Gradient Presets
-- Customize gradients
-- Copy CSS Code
+- 🌈Popular Gradient Presets
+- 🧰Customize gradients
+- 👨‍💻Copy CSS Code
 
 # Demo
 
